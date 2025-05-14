@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+    font-family: "Comic Relief", system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV STYLES */
+nav {
+    background-color: bisque;
+    display: flex;
+    height: 60px;
+    padding: 0 10px;
+    justify-content: space-between;
+
+}
+
+main {
+    background-color: aliceblue;
+    flex: 1;
+}
+
+
+nav ul,
+li {
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-options {
+    width: 500px;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.iniciar {
+    width: 70px;
+    height: 29px;
+    border: solid 1px black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iniciar a{
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+/* FOOTER STYLES  */
+
+footer {
+    display: flex;
+    padding: 0 100px;
+    background-color: #2D1C84;
+    color: white;
+    flex-wrap: wrap;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+footer .left,
+.right {
+    width: 50%;
+}
+
+footer .end {
+    width: 100%;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .left {
+    width: 40vw;
+}
+
+footer .left-mensagem {
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.right-navegacao {
+    font-weight: 500;
+}
+
+footer .right>.right-navegacao {
+    display: flex;
+    gap: 80px;
+}
+
+footer li {
+    margin-top: 25px;
+}
+
+footer .end {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.end .right-redes {
+    display: flex;
+    gap: 20px
+}
+
+.end .link {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.end .left-declaracao p{
+    margin: 0;
+}
